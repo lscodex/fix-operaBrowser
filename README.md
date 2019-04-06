@@ -35,7 +35,8 @@ uname -m
 
 
 * Secondly, you must check the file that /usr/lib/x86_64-linux-gnu/opera/
-	* x86_64_linux_gnu is my operating system so if this folder  doesn't exist, you must check your operating system. [Go to Caution](#caution)
+	* x86_64_linux_gnu is my operating system so if this folder  doesn't exist, you must check your operating system.
+	[Go to Caution](#caution)
 
 ## INSTALL 
 * sudo apt-get install ubuntu-restricted-extras
