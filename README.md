@@ -32,13 +32,12 @@ uname -m
 	* if it does not exist, you can download or install it,
 	* or you can download folder from my repo and cp to /usr/lib
 	```
-	cd 
-	sudo cp -r "DOWNLOAD_FILE" /usr/lib/chromium-browser
+	cd && sudo cp -r "DOWNLOAD_FILE" /usr/lib/chromium-browser
 	```
 
 
 * Secondly, you must check the file that /usr/lib/x86_64-linux-gnu/opera/
-	* x86_64_linux_gnu is my operating system so if this folder  doesn't exist, you must check your operating system. [Go to Caution](###Caution)
+	* x86_64_linux_gnu is my operating system so if this folder  doesn't exist, you must check your operating system. [Go to Caution](#caution)
 
 ## INSTALL 
 * sudo apt-get install ubuntu-restricted-extras
@@ -51,8 +50,7 @@ uname -m
 Finally, you copy libffmpeg.so to opera folder :
 
 ```
-cd
-sudo cp -r /usr/lib/chromium-browser/libffmpeg.so /usr/lib/x86_64-linux-gnu/opera/libffmpeg.so
+cd && sudo cp -r /usr/lib/chromium-browser/libffmpeg.so /usr/lib/x86_64-linux-gnu/opera/libffmpeg.so
 ```
 ### RESTART OPERA
 ```
