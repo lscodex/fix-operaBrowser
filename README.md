@@ -1,6 +1,6 @@
 # Opera issue
 I worked for 2 weeks to find a solution :)
-## youtube: your browser does not currently recognize any of the video formats available
+### youtube: your browser does not currently recognize any of the video formats available
  a) if you can not open to a video that in youtube live or twitter
  b) if you haven't a file that /usr/lib/x86_64-linux-gnu/oxide-qt/
 
@@ -38,7 +38,7 @@ uname -m
 
 
 * Secondly, you must check the file that /usr/lib/x86_64-linux-gnu/opera/
-	* x86_64_linux_gnu is my operating system so if this folder  doesn't exist, you must check your operating system. [Go to Caution](### Caution)
+	* x86_64_linux_gnu is my operating system so if this folder  doesn't exist, you must check your operating system. [Go to Caution](###Caution)
 
 ## INSTALL 
 * sudo apt-get install ubuntu-restricted-extras
