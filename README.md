@@ -1,8 +1,8 @@
 # Opera issue
 I worked for 2 weeks to find a solution :)
 ### youtube: your browser does not currently recognize any of the video formats available
- a) if you can not open to a video that in youtube live or twitter
- b) if you haven't a file that /usr/lib/x86_64-linux-gnu/oxide-qt/
+ * if you can not open to a video that in youtube live or twitter
+ * if you haven't a file that /usr/lib/x86_64-linux-gnu/oxide-qt/
 
 ### Caution 
 
@@ -25,8 +25,6 @@ if you want to check yours:
 ```
 uname -m
 ```
-
-
 ### Prerequisites 
 * Firstly, you must check the file that /usr/lib/chromium-browser/
 	* if it does not exist, you can download or install it,
@@ -42,9 +40,6 @@ uname -m
 ## INSTALL 
 * sudo apt-get install ubuntu-restricted-extras
 * sudo apt-get install h264enc
-
-
-
 
 ## COPY 
 Finally, you copy libffmpeg.so to opera folder :
