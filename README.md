@@ -59,6 +59,13 @@ and reopen the browser
 All the suggestions above were for ubuntu 18. 
 So, I faced this issue again when I swapped ubuntu 18 to ubuntu 16. I searched google. And h264ecnc is not supported ubuntu 16. And I don't know what chroium-browser is. But found this path in the [stackoverflow](https://askubuntu.com/a/1067267) (oo my gosh)
 
+Firstly: 
+I get the backup file that /usr/lib/x86_64_linux_gnu/opera/libffmpeg.so
+
+```
+cp /usr/lib/x86_64_linux_gnu/opera/libffmpeg.so /usr/lib/x86_64_linux_gnu/opera/libffmpeg.so.bak
+```
+
 But this path is not the same for my pc. So, I searched chromium step by step and  I found these folders in /snap/chromium-ffmpeg/23/ in my pc: 
 
 example for folders in the path:
