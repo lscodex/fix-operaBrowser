@@ -54,6 +54,28 @@ sudo killall -s KILL opera
 ```
 and reopen the browser 
 
+### FOR THE ISSUE THAT ON UBUNTU 16.04
+
+All the suggestions above were for ubuntu 18. 
+So, I faced this issue again when I swapped ubuntu 18 to ubuntu 16. I searched google. And h264ecnc is not supported ubuntu 16. And I don't know what chroium-browser is. But found this path in the [stackoverflow](https://askubuntu.com/a/1067267) (oo my gosh)
+
+But this path is not the same for my pc. So, I searched chromium step by step and  I found these folders in /snap/chromium-ffmpeg/23/ in my pc: 
+
+example for folders in the path:
+	
+- /chromium-ffmpeg-1033551/chromium-ffmpeg/libffmpeg.so
+- /chromium-ffmpeg-1041895/chromium-ffmpeg/libffmpeg.so
+- /chromium-ffmpge-95241/chromium-ffmpeg/libffmpeg.so
+
+And finally, from all the above files one by one I tried to copy step by step file that libffmpeg.so to /usr/lib/x86_64_linux_gnu/opera.
+
+one of them is works successfully.
+
+```
+/snap/chromium-ffmpeg/23/chromium-ffmpeg-95241/chromium-ffmpeg/libffmpeg.so
+```
+
+
 
 ## Acknowledgments
 * [Opera Forums](https://forums.opera.com/topic/22685/twitter-videos/5)
